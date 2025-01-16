@@ -1,4 +1,4 @@
-# Annapurna - Food Delivery App
+# Annapurna App
 
 Annapurna is an Android application designed to provide a seamless food delivery experience from the Annapurna Hotel. This app allows users to explore the menu, place orders, and enjoy delicious meals delivered straight to their doorstep.
 
