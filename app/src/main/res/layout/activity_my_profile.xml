@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16sp"
+    tools:context=".MyProfileActivity">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/profileimg"
+        android:src="@drawable/image" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/et_signIn_email_id"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:breakStrategy="simple"-->
+    <!--        android:fontFamily="@font/abyssinica_sil"-->
+    <!--        android:text="Hotel Annapurna"-->
+    <!--        android:textColor="#CECA9800"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/et_signIn_name"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:breakStrategy="simple"-->
+    <!--        android:fontFamily="@font/abyssinica_sil"-->
+    <!--        android:text="Hotel Annapurna"-->
+    <!--        android:textColor="#CECA9800"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textviewshape"
+        android:paddingLeft="16sp"
+        android:text="Name"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/mobile_no"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textviewshape"
+        android:paddingLeft="16sp"
+        android:text="Mobile No."
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textviewshape"
+        android:paddingLeft="16sp"
+        android:text="Email ID"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/textviewshape"
+        android:paddingLeft="16sp"
+        android:text="Username"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        android:textSize="24dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEditData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#CEFACE49"
+        android:text="Edit Data" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InternshipProject" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#E64A19</item>
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#FF9800</item>
+        <!--        <item name="colorTertiary">#FF9800</item>-->
+    </style>
+
+    <style name="ActionBar" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">#E64A19</item>
+        <item name="colorSecondary">#FF9800</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#FF9800</item>
+    </style>
+
+
+    <style name="Theme.InternshipProject" parent="Base.Theme.InternshipProject" />
+
+    <style name="Theme.InternshipProject.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.InternshipProject.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.InternshipProject.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

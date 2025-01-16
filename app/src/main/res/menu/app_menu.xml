@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/name_icon" />
+    <item
+        android:title="Settings"
+        android:id="@+id/setting"
+        android:icon="@drawable/setting_icon" />
+
+    <item
+        android:title="About Us"
+        android:icon="@drawable/username_icon"
+        android:id="@+id/about" />
+
+    <item
+        android:title="Contact Us"
+        android:icon="@drawable/contact_us_icon"
+        android:id="@+id/contact_us" />
+
+    <!--    <item-->
+    <!--        android:title="Logout"-->
+    <!--        android:id="@+id/logout"-->
+    <!--        android:icon="@drawable/logout"/>-->
+
+    <item
+        android:title="Logout/Sign Out"
+        android:id="@+id/account"
+        android:icon="@drawable/account">
+
+        <!-- Submenu for Account -->
+        <menu>
+            <item
+                android:title="Sign Out"
+                android:id="@+id/sign_out"
+                android:icon="@drawable/account" />
+
+            <item
+                android:title="Logout"
+                android:id="@+id/logout"
+                android:icon="@drawable/logout" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProductListActivity">
+
+    <androidx.appcompat.widget.SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/svProductListSearch"
+        android:textAlignment="center"
+        app:queryHint="Search By Category Name Or Dish Name"
+        android:layout_margin="16sp"
+        app:iconifiedByDefault="false"
+        android:background="@drawable/textviewshape" />
+
+    <ListView
+        android:id="@+id/gvProductList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/tvProductListNoCategory"
+        android:text="No Category Found"
+        android:textColor="#FF5722"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:fontFamily="@font/aldrich"
+        android:visibility="gone" />
+
+</LinearLayout>

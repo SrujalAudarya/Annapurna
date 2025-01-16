@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "446882592077",
+    "project_id": "hotelannapurna-7acb9",
+    "storage_bucket": "hotelannapurna-7acb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446882592077:android:01f81504a93d70ce973304",
+        "android_client_info": {
+          "package_name": "com.example.internshipproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446882592077-ceo9bqshnuikguu77irtobfqrvu4dd55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.internshipproject",
+            "certificate_hash": "d2a8ed4c80a845c6b5fbfd69d5ecf5afe23b3621"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOx9xBp91_JSzVgy2Q_BaCR1YyTw_BS9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
